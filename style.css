@@ -234,7 +234,7 @@ table:first-child{
     background-color: var(--Neutral-0);
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    transition: all .3 ease;
+    transition: all .3s ease;
 }
 .cards:hover{
     transform: scale(1.01);
