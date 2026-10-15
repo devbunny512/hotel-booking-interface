@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Hotel booking confirmation page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <header><img src="/assets/images/logo.svg" alt=""></header>
+    <div class="main-nav-list">
+      <div class="nav-list">
+        <ul>
+          <li><a href="#"><img src="assets/images/icon-bed.svg" alt="">Your Stay <span></span></a></li>
+          <li><a href="#"><img src="assets/images/icon-house.svg" alt="">The House</a></li>
+          <li><a href="#"><img src="assets/images/icon-pin.svg" alt="">Around Town</a></li>
+          <li><a href="#"><img src="assets/images/icon-breakfast-outline.svg" alt="">Breakfast</a></li>
+          <li><a href="#"><img src="assets/images/icon-mail.svg" alt="">Masseges</a></li>
+        </ul>
+      </div>
+      <div class="weather-info">
+        <div class="weather-card">
+          <div class="circle"></div>
+          <p class="grey">
+            Today in Cassis <br>
+            <span class="bold">27°</span> <br>
+            Sunny · light breeze
+          </p>
+        </div>
+        <p class="grey">Est. 1987 <br>
+           Maison Soleil · 12 Rue des <br>
+            Oliviers · Cassis <br>
+           © 2026 Maison Soleil
+        </p>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <header>
+      <div class="head-left">
+        <p class="grey"> Booking · Confirmed</p>
+        <h1>Bienvenue, <span>Lucia.</span></h1>
+      </div>
+      <div class="head-right">
+        <button>Print receipt</button>
+        <button>Add to calendar</button>
+      </div>
+    </header>
+    <div class="mid-section">
+
+      <div class="reciept-card">
+        <div class="reciept-head">
+          <div class="right">
+            <p class="grey">Receipt</p>
+            <h2>Your stay</h2>
+          </div>
+          <div class="left">
+            <p class="grey">№ MS-2026 <br>
+            0421-AH</p>
+          </div>
+        </div>
+        
+        <div class="reciept-check">
+          <div class="left">
+            <p class="grey">Check in <br>
+          <span class="bold">25 Apr</span> <br>
+          Saturday · 15:00</p>
+          </div>
+          <div class="right">
+            <p class="grey">Check out <br>
+          <span class="bold">29 Apr</span> <br>
+          Wednesday · 11:00</p>
+          </div>
+         
+        </div>
+        <div class="reciept-bill">
+          <table>
+            <tr>
+              <td>Room · La Garrigue · 4 nights</td>
+              <td>€ 620.00</td>
+            </tr>
+             <tr>
+              <td>Breakfast · 2 guests</td>
+              <td>€ 96.00</td>
+            </tr>
+             <tr>
+              <td>Tourist tax</td>
+              <td>€ 14.00</td>
+            </tr>
+          </table>
+        </div>
+        <hr>
+        <div class="reciept-total-bill">
+          <table>
+            <tr>
+              <td>Total paid</td>
+              <td>€ 730.40</td>
+            </tr>
+            <tr>
+              <td>Paid · Wise · GBP</td>
+              <td><img src="assets/images/icon-barcode.svg" alt=""></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="welcome-card">
+        <div class="welcome-head">
+          <p class="grey">welcome card</p> <img src="assets/images/icon-sun.svg" alt="">
+        </div>
+        <div class="welcome-body">
+          <p class="host">A note from your host,</p>
+          <h1> Margaux.</h1>
+          <p class="grey">We're so glad you're coming. The shutters will be open, the lemonade cold, and the cat - Poivre - pretending not to notice you.</p>
+        </div>
+        <div class="welcome-bottom">
+          <p class="grey">Room</p>
+          <h2>La Garrigue</h2>
+        </div>
+      </div>
+    </div>
+    
+<div class="footer-main">
+  <div class="card-one cards">
+    <div class="head">
+      <div class="lg-arr">
+        <img src="assets/images/icon-key.svg" alt="">
+        <span>Arrival</span>
+      </div>
+      <span class="num">01</span>
+    </div>
+
+    <div class="body">
+      <h3>Check-in from 15:00</h3>
+      <p>
+        <span>Sat, 25 April</span>
+        <br>
+        Ring the brass bell by the blue door. If we're at the market,
+        the key is in the terracotta pot by the olive tree.
+      </p>
+    </div>
+  </div>
+
+  <div class="card-two cards">
+    <div class="head">
+      <div class="lg-arr">
+        <img src="assets/images/icon-wifi.svg" alt="">
+        <span>Wifi</span>
+      </div>
+      <span class="num">02</span>
+    </div>
+
+    <div class="body">
+      <h3>Le Soleil · Guest</h3>
+      <p>Password below</p>
+
+      <div class="pass">
+        <span>Network</span>
+        <span>Le Soleil · Guest</span>
+      </div>
+
+      <div class="pass">
+        <span>Password</span>
+        <span>
+          soleil-2026
+          <button type="button">Copy</button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-three cards">
+    <div class="head">
+      <div class="lg-arr">
+        <img src="assets/images/icon-breakfast.svg" alt="">
+        <span>Breakfast</span>
+      </div>
+      <span class="num">03</span>
+    </div>
+
+    <div class="body">
+      <h3>Served 8 - 10:30</h3>
+      <p>
+        <span>On the terrace</span>
+        <br>
+        Fresh figs, Marseille honey, pain au levain, and espresso.
+        Gluten-free option? Leave a note the night before.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  </main>
+
+  
+</body>
+</html>

@@ -1,0 +1,28 @@
+:root{
+    /* natural colors */
+--Neutral-900: #2c2721;
+--Neutral-800: #3e3428;
+--Neutral-700: #594b3b;
+--Neutral-600: #7a6a57;
+--Neutral-400: #e3ddd3;
+--Neutral-200: #f1ede9;
+--Neutral-100: #fbf6ef;
+--Neutral-50: #fdfbf7;
+--Neutral-0: #ffffff;
+
+/* sun colors */
+--Sun-500: #edb73b;
+--Sun-300: #f5d88a;
+--Sun-200: #ffde7a;
+--Sun-50: #fff4db;
+
+/* teracotta colors */
+--Terracotta-700: #9f3e1d;
+--Terracotta-600: #b6421b;
+--Terracotta-500: #c25a2e;
+--Terracotta-400: #e0793e;
+
+--Blue-500: #586ac6;
+
+--Rose-500: #bf4a71;
+}
